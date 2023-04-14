@@ -1,0 +1,105 @@
+@font-face {
+    font-family: bebas;
+    src: url(../Font/BebasNeue-Regular.ttf);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 10;
+    }
+}
+
+#start{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: #00aeff;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #fff;
+    transition: .5s;
+}
+#start:hover{
+    background-color: #fff;
+    border: 2px solid #00aeff;
+    color: #000;
+}
+
+.active{
+    animation-name: fade;
+    animation-duration: .6s;
+}
+
+#timer {
+    font-family: bebas;
+    font-size: 200px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#timer.active{
+    display: block;
+    animation-name: fade;
+    animation-duration: .6s;
+}
+.center{
+    font-family: bebas;
+    font-size: 80px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    text-align: center;
+}
+.gif{
+    position: absolute;
+}
+
+.gif1{
+    top: 30px;
+    left: 30px;
+}
+
+.gif2{
+    top: 30px;
+    left: 45%;
+}
+
+.gif3{
+    top: 30px;
+    right: 30px;
+}
+
+.gif4{
+    top: 330px;
+    left: 30px;
+}
+
+.gif5{
+    top: 330px;
+    right: 30px;
+}
+
+.gif6{
+    top: 600px;
+    left: 30px;
+}
+
+.gif7{
+    top: 660px;
+    right: 30px;
+}
